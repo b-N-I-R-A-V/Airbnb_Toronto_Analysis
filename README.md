@@ -11,6 +11,16 @@ Airbnb currently has more than 5 million hosts and more than 7.7 million active 
 7. Which listings are most successful?
 
 ## Data Source
-This data source is external. It was collected by insideairbnb.com and not published by Airbnb itself. The website however is not endorsing nor associated with Airbnb or its’ competition. The website claims that the data compiled is for public analysis, discussion, and community website. In my opinion, I think we can consider this data set as trustworthy since it is collected from Airbnb and due transparency is shown by Inside Airbnb. Link[https://insideairbnb.com/get-the-data]
+This data source is external. It was collected by insideairbnb.com and not published by Airbnb itself. The website however is not endorsing nor associated with Airbnb or its’ competition. The website claims that the data compiled is for public analysis, discussion, and community website. In my opinion, I think we can consider this data set as trustworthy since it is collected from Airbnb and due transparency is shown by Inside Airbnb. 
+[Inside Airbnb Data Source](https://insideairbnb.com/get-the-data)
+
+## Tableau Dashboard and Story
+I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. Note that, not all the visualizations have been added to the Tableau dashboard.
+
+[Tableau Dahsboard Link](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
+
+## Data Limitations
+Please note that, 25% of the price were missing in the original data set. To handle these missing values I have removed the prices as I was interested in predict price based on number of bedrooms and accommodates. This may have skewed the data in one direction or another and may case bias in the data. Therefore, results of this analysis can be interpreted with caution. The primary goal of the project was to practice skills with machine learning algorithms.
+
 
 
