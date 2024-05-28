@@ -13,6 +13,8 @@ Airbnb currently has more than 5 million hosts and more than 7.7 million active 
 ## Data Source
 This data source is external. It was collected by insideairbnb.com and not published by Airbnb itself. The website however is not endorsing nor associated with Airbnb or its’ competition. The website claims that the data compiled is for public analysis, discussion, and community website. In my opinion, I think we can consider this data set as trustworthy since it is collected from Airbnb and due transparency is shown by Inside Airbnb. 
 [Inside Airbnb Data Source](https://insideairbnb.com/get-the-data)
+[Toronto Listings Data set](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/data/listings.csv.gz)
+[GeoJSON file of Neighbourhoods in Toronto](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/visualisations/neighbourhoods.geojson)
 
 ## Tableau Dashboard and Story
 I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. Note that, not all the visualizations have been added to the Tableau dashboard.
