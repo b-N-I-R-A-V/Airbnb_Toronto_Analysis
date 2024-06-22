@@ -17,8 +17,9 @@ This data source is external. It was collected by insideairbnb.com and not publi
 Data Sets:
 1. [Toronto Listings Data set](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/data/listings.csv.gz)
 2. [GeoJSON file of Neighbourhoods in Toronto](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/visualisations/neighbourhoods.geojson)
+<div align="center">
 <img width="744" alt="image" src="https://github.com/b-N-I-R-A-V/Airbnb_Toronto_Analysis/assets/153047871/23aa1377-7c24-4d7d-bd36-c8f699bf5318">
-
+</div>
 
 
 ## Tableau Dashboard and Story
