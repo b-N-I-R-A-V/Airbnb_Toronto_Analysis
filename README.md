@@ -14,12 +14,15 @@ Airbnb currently has more than 5 million hosts and more than 7.7 million active 
 This data source is external. It was collected by insideairbnb.com and not published by Airbnb itself. The website however is not endorsing nor associated with Airbnb or its’ competition. The website claims that the data compiled is for public analysis, discussion, and community website. In my opinion, I think we can consider this data set as trustworthy since it is collected from Airbnb and due transparency is shown by Inside Airbnb. 
 [Inside Airbnb Data Source](https://insideairbnb.com/get-the-data) 
 
-Data Sets:
+##Data Sets:
 1. [Toronto Listings Data set](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/data/listings.csv.gz)
 2. [GeoJSON file of Neighbourhoods in Toronto](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/visualisations/neighbourhoods.geojson)
 <div align="center">
 <img width="544" alt="image" src="https://github.com/b-N-I-R-A-V/Airbnb_Toronto_Analysis/assets/153047871/23aa1377-7c24-4d7d-bd36-c8f699bf5318">
 </div>
+
+## Data Limitations and Challenges
+I noticed that 25% of the price were missing in the original data set. This was challenging as I wanted to predict price of an Airbnb listing and imputing the price using any technique would have defeated the purpose of doing so. To handle these missing values I had to remove theem from the dataset. This may have skewed the data in one direction or another and may case bias in the data. Therefore, results of this analysis can be interpreted with caution. The primary goal of the project was to practice skills with machine learning algorithms.
 
 
 ## Tableau Dashboard and Story
@@ -27,8 +30,6 @@ I have added the most important visualizations on Tableau public to make it easy
 
 [Tableau Dahsboard Link](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
 
-## Data Limitations
-Please note that, 25% of the price were missing in the original data set. To handle these missing values I have removed the prices as I was interested in predict price based on number of bedrooms and accommodates. This may have skewed the data in one direction or another and may case bias in the data. Therefore, results of this analysis can be interpreted with caution. The primary goal of the project was to practice skills with machine learning algorithms.
 
 
 
