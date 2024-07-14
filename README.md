@@ -121,11 +121,26 @@ I also considred avgerage minimum nights and average reviews by clusters to iden
 - Cluster 1 which has lowest median price of all clusters offers maximum minimum number of nigths on average (approximately 37).
 - Cluster 3 has recieved the lowest number of reviews on average and offers, on average, more minimum number of nights than cluster 0 and 4 and about the same number of minimum nights as cluster 2.
 
+## Conclusion and Recommendations
+Finally, I put together everything that we have figured out for Airbnb listings in Toronto.
+1. The costliest listings provide unique value to the customers. For instance, shipping container, boat, and Earthen house. There are only a few listings in comparison to comman type of listings.
+2. The priciest neighbourhood Forest Hill South, $223, has only 27 listings. 
+3. The chances of a listing being vacant for next 90 days increases if the listing is vacant for next 60 days.
+4. Number of bedrooms alone or number of people accommodated in a listing doesn't directly dictate price of the listing.
+5. The listings that have received more reviews are those where the host have 2 listings on average.
+6. Average number of reviews are highest where the minimum nights offered by a listing is lowest. Conversely, when the minimum nights offered by a listing is high, the average number of reviews is low.
 
+**Recommendations:** 
+1. Neighbourhood must be considered while deciding price of a listing.
+2. Focus on 1 or 2 listings to get more reviews.
+3. To elicit more reviews, reduce minimum number of nights that are offered. 
 
+**What could I do better?** 
+I thought of the following steps that I can take in future to improve and futher my analysis.
+1. The distribution of the clusters isn't well balanced.  We can use different clustering algorithm to produce the clusters.
+2. The price of listings isn't determined only by number of rooms or people it can accommodate. We can use NLP and text parsing to study amenities more and find a relationship between amenities offered and price of a listing.
 
-
-
+I hope you have found something useful. If you have any questions or suggestions for me, feel free to reach out via my [LinkedIn](https://www.linkedin.com/in/nirav-bariya/) profile or [email](mailto:nkb.bariya@gmail.com) me.  Have a great rest of the day!
 
 
 
