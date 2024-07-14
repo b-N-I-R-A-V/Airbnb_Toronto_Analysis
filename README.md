@@ -62,12 +62,19 @@ Majority of listings are priced between $50 and $100. As you can see the distrib
 
 - When it comes to frequency of each property type, we see that entire rental unit, private room in home, entire condo, and entire home are the top 4 types.
 - But, the most priced property types do not have high frequency. For instance, Shipping container, entire cottage, boat, Earthen home Entire Villa,  and Island are priced highly but have less frequency. They provide unique value to the tenants.
+- The most common type of listings was entire rental unit.
 
-
-
-<div align="center">
+I was interested into visualizing the listings on a map. So, I created a map depicting the number of listings and the median price per neighbourhood.
+<p align="center">
 <img width="544" alt="image" src="https://github.com/b-N-I-R-A-V/Airbnb_Toronto_Analysis/assets/153047871/23aa1377-7c24-4d7d-bd36-c8f699bf5318">
-</div>
+</p>
+
+Neighborhoods certainly effected pricing of a listing. Following are some of the observations:
+- Waterfront Communities Island by far has the most number of listings. The other populated neighbourhoods such as Niagara, Annex, Trinity-Bellwoods, and Church-Yonge corridor are in Downtown Toronto.
+- Interestingly, the priciest neighbourhood Forest Hill South, $223, has only 27 listings. This is followed by Bridle Path-Sunnybrook-York Mills, Bay Street Corridor, and Forest Hill North.
+It is clear that prices vary in the neighbourhoods. Certain neighbourhoods may influence the pricing of the listing. For instance, a neighbourhood of only Villas. However, whether or not if it is only a consequence of neighbourhood is to be determined.
+
+
 
 
 
