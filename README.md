@@ -94,6 +94,13 @@ Note that after clustering the data, cluster 0 accommodates more people and has 
   <img width="488" alt="image" src="https://github.com/user-attachments/assets/be101faa-1e0f-42de-9e83-70232f37386b">
 </p>
 
+Cluster 0 has the highest median price at $300. On the other spectrum cluster 1 has the lowest median price of $65. Cluster 2, 3, and 4, have prices somewhere in the middle. We can think of clusters in terms of price as follows:
+- Cluster 0: Very high-priced listings
+- Cluster 1: low priced listings
+- Cluster 2: medium priced listings
+- Cluster 3: medium-low priced listings
+- Cluster 4: medium-high priced listings
+
 
 
 
