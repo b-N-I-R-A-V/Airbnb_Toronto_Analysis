@@ -1,6 +1,10 @@
 # Airbnb Toronto Listings
 **Purpose and Context:** Airbnb currently has more than 5 million hosts and more than 7.7 million active listings. Some of these listings are highly profitable and some are not. In this exploratory project, we are driven in identifying factors that contributes to an Airbnb listing's success. This repository dives into the world of Airbnb listings in Toronto. We perform EDA along with basic supervised and unsupervised machine learning algorithms such as linear regression and K-means clustering.
 
+### Tableau Dashboard and Story
+I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. You can checkout my Tableau Storyboard using the following link:
+- [Tableau Dahsboard Link](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
+
 ### Project Goals:
 - Identify successful listings
 - Determine factors that makes a listings successful
@@ -21,8 +25,15 @@ The dataset I have used is an external dataset. The data was collected by inside
 - [Toronto Listings Data set](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/data/listings.csv.gz)
 - [GeoJSON file of Neighbourhoods in Toronto](https://data.insideairbnb.com/canada/on/toronto/2024-05-09/visualisations/neighbourhoods.geojson)
 
-### Challenges
+### Preprocessing the Data
+The dataset went through the following series of steps before we the analysis:
+1. Explored shape of the data frame, data types of the columns, and summary statistics of the numerical columns.
+2. Performed data wrangling by renaming columns and dropping columns.
+3. Checked data for consistency addressing mixed data types, handling duplicates, and missing data.
+4. Checked data for consistency addressing mixed data types, handling duplicates, and missing data.
+5. Calculated summary statistics after consistency check, removed outliers.
 
+### Challenges
 - I noticed that 25% of the price were missing in the original data set. This was challenging as I wanted to predict price of an Airbnb listing and imputing the price using any technique would have defeated the purpose of doing so.
 - To handle these missing values, I had to remove them from the dataset. This may have skewed the data in one direction or another and may case bias in the data. Therefore, results of this analysis can be interpreted with caution.
 - The primary goal of the project was to practice skills with machine learning algorithms.
@@ -36,18 +47,25 @@ The dataset I have used is an external dataset. The data was collected by inside
 5. Do customers prefer fewer minimum nights or more minimum nights?
 6. Which factors are related to listings that are most successful?
 
+## Summarizing and Analyzing Data
+I started my analysis by performing EDA, identifying distribution of property types and median pricing for each property type.
+<p align = "center">
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/39734b58-58d6-41d5-b1e6-13b5dc3fc213">
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/25c20310-94bd-401e-9081-8d79b7b46163">
+</p>
+
+Majority of listings are priced between $50 and $100. As you can see the distribution was skewed right indicating that only few listings were highly priced.
+
+
+
+
 <div align="center">
 <img width="544" alt="image" src="https://github.com/b-N-I-R-A-V/Airbnb_Toronto_Analysis/assets/153047871/23aa1377-7c24-4d7d-bd36-c8f699bf5318">
 </div>
 
-## Data Limitations and Challenges
-I noticed that 25% of the price were missing in the original data set. This was challenging as I wanted to predict price of an Airbnb listing and imputing the price using any technique would have defeated the purpose of doing so. To handle these missing values I had to remove theem from the dataset. This may have skewed the data in one direction or another and may case bias in the data. Therefore, results of this analysis can be interpreted with caution. The primary goal of the project was to practice skills with machine learning algorithms.
 
 
-## Tableau Dashboard and Story
-I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. Note that, not all the visualizations have been added to the Tableau dashboard.
-
-[Tableau Dahsboard Link](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
 
 
 
