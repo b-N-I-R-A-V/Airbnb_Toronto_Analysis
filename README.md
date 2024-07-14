@@ -50,13 +50,18 @@ The dataset went through the following series of steps before we the analysis:
 ## Summarizing and Analyzing Data
 I started my analysis by performing EDA, identifying distribution of property types and median pricing for each property type.
 <p align = "center">
-  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/39734b58-58d6-41d5-b1e6-13b5dc3fc213">
-  &nbsp; &nbsp; &nbsp; &nbsp;
-  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/25c20310-94bd-401e-9081-8d79b7b46163">
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/39734b58-58d6-41d5-b1e6-13b5dc3fc213">
 </p>
 
 Majority of listings are priced between $50 and $100. As you can see the distribution was skewed right indicating that only few listings were highly priced.
+<p align = "center">
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/25c20310-94bd-401e-9081-8d79b7b46163">
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img width="45%" alt="image" src="https://github.com/user-attachments/assets/dc70bc3f-f6ed-4541-ab17-78ee8e446d92">
+</p>
 
+- When it comes to frequency of each property type, we see that entire rental unit, private room in home, entire condo, and entire home are the top 4 types.
+- But, the most priced property types do not have high frequency. For instance, Shipping container, entire cottage, boat, Earthen home Entire Villa,  and Island are priced highly but have less frequency. They provide unique value to the tenants.
 
 
 
