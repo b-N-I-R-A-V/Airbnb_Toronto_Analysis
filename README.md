@@ -2,8 +2,7 @@
 **Purpose and Context:** Airbnb currently has more than 5 million hosts and more than 7.7 million active listings. Some of these listings are highly profitable and some are not. In this exploratory project, we are driven in identifying factors that contributes to an Airbnb listing's success. This repository dives into the world of Airbnb listings in Toronto. We perform EDA along with basic supervised and unsupervised machine learning algorithms such as linear regression and K-means clustering.
 
 ### Tableau Dashboard and Story
-I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. You can checkout my Tableau Storyboard using the following link:
-- [Tableau Dahsboard Link](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
+I have added the most important visualizations on Tableau public to make it easy for the stakeholders understand the story of Toronto Airbnb listings. You can checkout my Tableau Storyboard using the [Tableau Dahsboard Link.](https://public.tableau.com/app/profile/nirav.bariya/viz/AirbnbToronto_17160459621940/AirbnbStory?publish=yes)
 
 ### Project Goals:
 - Identify successful listings
@@ -136,6 +135,7 @@ Finally, I put together everything that we have figured out for Airbnb listings 
 3. To elicit more reviews, reduce minimum number of nights that are offered. 
 
 **What could I do better?** 
+
 I thought of the following steps that I can take in future to improve and futher my analysis.
 1. The distribution of the clusters isn't well balanced.  We can use different clustering algorithm to produce the clusters.
 2. The price of listings isn't determined only by number of rooms or people it can accommodate. We can use NLP and text parsing to study amenities more and find a relationship between amenities offered and price of a listing.
