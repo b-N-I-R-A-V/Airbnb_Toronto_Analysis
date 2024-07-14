@@ -101,9 +101,25 @@ Cluster 0 has the highest median price at $300. On the other spectrum cluster 1 
 - Cluster 3: medium-low priced listings
 - Cluster 4: medium-high priced listings
 
+### Clusters Analysis
+I then looked at the average number of reviews and average listings count by clusters to see how they were related. 
+<p align = "center">
+<img width="648" alt="image" src="https://github.com/user-attachments/assets/0f68906d-2d89-4e11-a580-1b186b13a3b1">
+</p>
 
+- When we considred number of reviews received per cluster and number of listings per cluster, we found that cluster 4 had the maximum number of reviews (98.76) and minimum number of listings count(1.92) on average.
+- On the other hand, cluster 1 and cluster 3 had lowest number of reviews on average. Further, cluster 1 had maximum number of listings count (28.56) on average. These clusters are have low and medium-low priced listings.
+- Cluster 0 and 2 has more listings than cluster 4 but they haven't recieved as many reviews as cluster 4. Cluster 0 has the most expensive listings and it can be argued that less number of people would afford it and consequently it will have less reviews.
 
+I also considred avgerage minimum nights and average reviews by clusters to identify relationships and found the following:
+<p align ="center">
+  <img width="626" alt="image" src="https://github.com/user-attachments/assets/73c031f5-dea1-468c-a12c-1bb37f884107">
+</p>
 
+- Minimum number of nights offered by a listing also seems to be related to  the number of reviews that a listing gets.
+- Cluster 4 offers on average minimum of approximately 6 nights which is considerably lower than all other clusters.
+- Cluster 1 which has lowest median price of all clusters offers maximum minimum number of nigths on average (approximately 37).
+- Cluster 3 has recieved the lowest number of reviews on average and offers, on average, more minimum number of nights than cluster 0 and 4 and about the same number of minimum nights as cluster 2.
 
 
 
