@@ -72,7 +72,33 @@ I was interested into visualizing the listings on a map. So, I created a map dep
 Neighborhoods certainly effected pricing of a listing. Following are some of the observations:
 - Waterfront Communities Island by far has the most number of listings. The other populated neighbourhoods such as Niagara, Annex, Trinity-Bellwoods, and Church-Yonge corridor are in Downtown Toronto.
 - Interestingly, the priciest neighbourhood Forest Hill South, $223, has only 27 listings. This is followed by Bridle Path-Sunnybrook-York Mills, Bay Street Corridor, and Forest Hill North.
+
 It is clear that prices vary in the neighbourhoods. Certain neighbourhoods may influence the pricing of the listing. For instance, a neighbourhood of only Villas. However, whether or not if it is only a consequence of neighbourhood is to be determined.
+
+## Searching for Successful Listings
+After performing EDA, I shifted my attention to understanding what makes an Airbnb listing successful. How do I define success? One easy way for me to simplify this definition was to know for how many days a listing goes vacant. That is, how many days in the next 60 or 90 days is it available? I developed a research hypothesis that maybe if a listing is available for many days in the next 60 days, it will be available for many days in the next 90 days.
+<p align = "center">
+  <img width="80%" alt="image" src="https://github.com/user-attachments/assets/df9d34fe-0b19-4f44-b5cb-964352fb199e">
+</p>
+
+- Indeed there was a linear relationship involved. In this case we got an R-squared value of 0.93. This means that the  93% of the variation in availability in the next 90 days can be explained by availability in the next 60 days.
+- However, we must be cautiaous while interepreting this results as there is Mean Squared Error(MSE) of 70.78. This means that our predictions could be off by approximately 7 or 8 days. 
+
+I then moved on to perform the K-Means Clustering algorithm to identify successful listings and what contributed to their success. I also examined how the clusters related to price and the number of bedrooms.
+<p align = "center">
+  <img width="801" alt="image" src="https://github.com/user-attachments/assets/832062f4-289f-4781-b6c4-5d89e66581a6">
+</p>
+Note that after clustering the data, cluster 0 accommodates more people and has more bedrooms  than any other clusters. Cluster 1 and 2 are priced less than cluster 0 and accommodates fewer people and bedrooms.
+
+<p align = "center">
+  <img width="488" alt="image" src="https://github.com/user-attachments/assets/be101faa-1e0f-42de-9e83-70232f37386b">
+</p>
+
+
+
+
+
+
 
 
 
