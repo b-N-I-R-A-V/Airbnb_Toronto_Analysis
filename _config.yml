@@ -1,5 +1,5 @@
 title: Nirav Bariya
 logo: /assets/images/profile_repo.png
-description: This repository contains python scripts and other files related to Airbnb project. We perform EDA along with basic machine learning algorithms including linear regression and K-mean clustering.
+description: This repository contains python scripts and other files related to Airbnb project. 
 show_downloads: false
 theme: jekyll-theme-minimal
